@@ -20,7 +20,7 @@ $(function () {
 // This function sets the class and compares it to the current time.
   $('textarea').each(function () {
     // add variables comparing now(dayjs) to parseInt() if-else statements 
-    var now = dayjs()
+    var now = dayjs().hour()
     var current = parseInt($(this).attr('id'));
 // compares current time to the time in the planner.
     if (current > now) {
