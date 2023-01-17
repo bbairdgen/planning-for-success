@@ -1,99 +1,37 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Planning-for-Success
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+I created this planner as a way for someone to keep track of the to-do items on their work day. The planner will change colors as the day progresses. In this project I was able to learn how to create a loop in jQuery and set/get items into/from Local Storage. 
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Table of Contents (Optional)
 
-## User Story
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-## Acceptance Criteria
+## Installation
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+N/A
 
-The following animation demonstrates the application functionality:
+## Usage
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+To use the planner, click and type into the space next to the time to add an item into the planner. As time progresses through the day, the planner colors will change as time progresses. If the box is green that is an event that is in the future. If the box is red, that event is in currently happening. If the box is gray, then the event has passed. 
 
-## Grading Requirements
+You can access the planner by going to: https://bbairdgen.github.io/planning-for-success instructions and examples for use. Include screenshots as needed.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+Here is a sample screenshot of what you might see when you visit the planner:
 
-This Challenge is graded based on the following criteria:
+![Screenshot of planner](assets/Screen%20Shot%202023-01-16%20at%2010.29.41%20PM.png)
 
-### Technical Acceptance Criteria: 40%
+## Credits
 
-* Satisfies all of the above acceptance criteria plus the following:
+I received help from the API documentation on jQuery and dayjs. I also received help from the TAs, specifically Mitch. 
 
-  * Uses a date utility library to work with date and time
+## License
 
-### Deployment: 32%
+This project has an MIT License.
 
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
